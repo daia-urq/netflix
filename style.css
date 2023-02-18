@@ -1,0 +1,143 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.float {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+
+}
+
+.float>div>ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    font-size: 0.7em;
+    display: flex;
+    align-items: center;
+
+}
+
+.float>div>.primero {
+    min-width: 70vw;
+
+}
+
+.float>div>.segundo {
+    min-width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.float>div>ul>li {
+    padding-left: 0.6rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.segundo>.dropdown>.right>a>img,
+td>a>img {
+    width: 1.5rem;
+    border-radius: 0.2rem;
+}
+
+.segundo {
+    padding-right: 2rem;
+}
+
+.primero>li>img {
+    width: 80px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+}
+
+.fondo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.fondo>img {
+    max-height: 99vh;
+    min-width: 100vw;
+    object-fit: cover;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    right: 0;
+    display: none;
+    position: absolute;
+    background: rgba(20, 20, 20, 0.747);
+    color: white;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+span {
+    color: white;    
+}
+
+table {
+    width: 15vw;
+}
+
+td>a {
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    padding-left: 1rem;    
+    font-size:x-small;
+}
+
+header span{
+    margin-left: 1rem;    
+    margin-right: 1rem;
+}
+
+td>a>img, td>a>span {
+    margin-right: 1rem;
+    margin-left: 0rem;
+}
+
+body > header > div > div:nth-child(2) > ul > div:nth-child(4) > li > span{
+    padding-right: 0%;
+    margin-right: 0%;
+    margin-left: 0rem;
+    padding-left: 0%;
+}
+
+#notificacion{
+    height: 100vh;
+    width: 70vh;
+}
+.scroll{
+    width: 25vh;
+}
