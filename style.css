@@ -2,6 +2,11 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background-color: #141414;
 }
 
 .float {
@@ -140,4 +145,88 @@ body > header > div > div:nth-child(2) > ul > div:nth-child(4) > li > span{
 }
 .scroll{
     width: 25vh;
+}
+
+.main-info {
+    width: 625px;
+    margin: 0 28px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.svg-icon {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 16px;
+}
+
+.tendencia {
+    font-size: 2em;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+
+div.main-info p {
+    margin: 1em 0;
+}
+
+div.main-info>button {
+    padding: .5em 1.5em 0.5em 1em;
+    border-radius: 4px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+div.main-info>button:hover {
+    cursor: pointer;
+}
+
+button.btn-1 span {
+    color: #000;
+}
+
+div.main-info span {
+    margin: 0 5px 0 0;
+}
+
+.btn-1 .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.btn-1 {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-1:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-2 {
+    background-color: rgba(109, 109, 110, 0.7);
+}
+
+.btn-2:hover {
+    background-color: rgba(109, 109, 110, 0.4);
+}
+
+.maturity-rating {
+    background-color: rgba(51,51,51,.6);
+    width: 5.5em;
+    border: 3px #dcdcdc;
+    border-left-style: solid;    
+    padding: 9px 50px 9px 10px;
+    display: flex;
+    font-weight: bolder;
+}
+
+.maturity-div {
+    display: flex;
+    justify-content: end;
 }
