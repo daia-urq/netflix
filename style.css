@@ -230,3 +230,62 @@ div.main-info span {
     display: flex;
     justify-content: end;
 }
+
+.footer{
+    padding: 50px 30px 20px 30px;
+    color: rgb(153, 152, 152);
+}
+
+
+.columna-footer {
+    padding: 25px;
+}
+
+.footer .columna-footer a {
+    display: block;
+    color: rgb(138, 139, 139);
+    font-size:xx-small;
+    margin-bottom: 15px;
+}
+
+.filas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color: transparent;
+    color: rgb(138, 139, 139);
+    font-size:xx-small;
+    border: 0.01rem solid  rgb(138, 139, 139) ;
+    padding: 0.3rem;   
+}
+
+.boton {
+    margin-left: 22rem;
+    font-size:xx-small;
+    color: rgb(138, 139, 139);
+}
+
+.boton>p{
+    margin-top: 0.5rem;
+    color: rgb(138, 139, 139);
+}
+
+.tarjetas{
+    margin-left: 1rem;
+}
+
+main>div>h2{
+font-size:large;
+margin-left: 1.5rem;
+}
+.tarjetas>.card{
+    margin: 0.2rem;
+    border: none;
+}
+
+.lineal{
+    margin-bottom: 3rem;
+}
